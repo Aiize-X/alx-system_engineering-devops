@@ -1,0 +1,174 @@
+0. Where am I?
+Write a script that prints the absolute path name of the current working directory.
+
+Repo:
+GitHub repository: alx-fsystem_engineering-devops
+Directory: 0x00-shell_basics
+File: 0-current_working_directory
+
+Script:
+echo '#!/bin/bash' >> 0-current_working_directory && echo "pwd" >> 0-current_working_directory
+
+ #1#
+
+1. What’s in there?
+Display the contents list of your current directory.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 1-listit
+
+script:
+echo '#!/bin/bash' >> 1-listit && echo "ls" >> 1-listit
+
+#2#
+
+2. There is no place like home...
+Write a script that changes the working directory to the user’s home directory.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 2-bring_me_home
+
+Script:
+echo '#!/bin/bash' >> 2-bring_me_home && echo "cd" >> 2-bring_me_home
+
+##3##
+
+3. The long format...
+Display current directory contents in a long format
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 3-listfiles
+
+Script.:
+echo '#!/bin/bash' >> 3-listfiles && echo "ls -l" >> 3-listfiles
+
+##4##
+
+4. Hidden files
+Display current directory contents, including hidden files (starting with .). Use the long format.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 4-listmorefiles
+
+Script:
+echo '#!/bin/bash' >> 4-listmorefiles && echo "ls -la" >> 4-listmorefiles
+
+
+##5##
+
+5. I love numbers
+Display current directory contents.
+
+Long format
+with user and group IDs displayed numerically
+And hidden files (starting with .)
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 5-listfilesdigitonly
+
+Script:
+echo '#!/bin/bash' >> 5-listfilesdigitonly && echo "ls -lna" >> 5-listfilesdigitonly
+
+##6##
+
+6. Welcome
+Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 6-firstdirectory
+
+Script:
+echo '#!/bin/bash' >> 6-firstdirectory && echo "mkdir /tmp/my_first_directory" >> 6-firstdirectory
+
+##7##
+
+7. Betty in my first directory
+Move the file betty from /tmp/ to /tmp/my_first_directory.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 7-movethatfile
+
+Script:
+echo '#!/bin/bash' >> 7-movethatfile && echo "mv /tmp/betty /tmp/my_first_directory" >> 7-movethatfile
+
+##8##
+
+8. Bye bye Betty
+Delete the file betty.
+The file betty is in /tmp/my_first_directory
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 8-firstdelete
+
+Script:
+echo '#!/bin/bash' >> 8-firstdelete && echo "rm /tmp/my_first_directory/betty" >> 8-firstdelete
+
+##9##
+
+9. Bye bye My first directory.
+Delete the directory my_first_directory that is in the /tmp directory.
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x00-shell_basics
+File: 9-firstdirdeletion
+
+Script:
+echo '#!/bin/bash' >> 9-firstdirdeletion && echo "rm -r /tmp/my_first_directory" >> 9-firstdirdeletion
+
+
+##10##
+
+echo '#!/bin/bash' >> 10-back && echo "cd -" >> 10-back
+
+##11##
+
+echo '#!/bin/bash' >> 11-lists && echo "ls -al . .. /boot" >> 11-lists
+
+##12##
+
+echo '#!/bin/bash' >> 12-file_type && echo "file /tmp/iamafile" >> 12-file_type
+
+##13##
+
+echo '#!/bin/bash' >> 13-symbolic_link && echo "ln -s /bin/ls  _ _ ls _ _" >> 13-symbolic_link
+
+*Note* There should be no space between the underscores
+
+##14##
+
+echo '#!/bin/bash' >> 14-copy_html && echo "cp -nu *.html .." >> 14-copy_html
+
+##15##
+
+echo '#!/bin/bash' >> 100-lets_move && echo "mv [[:upper:]]* /tmp/u" >> 100-lets_move
+
+##16##
+
+echo '#!/bin/bash' >> 101-clean_emacs && echo "rm *~" >> 101-clean_emacs
+
+##17##
+
+echo '#!/bin/bash' >> 102-tree && echo "mkdir -p welcome/to/school" >> 102-tree
+
+##18##
+
+echo '#!/bin/bash' >> 103-commas && echo "ls -pamv" 103-commas
+
+#############
